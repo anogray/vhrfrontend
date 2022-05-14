@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .article-container{
+  margin-left: 5%;
+  padding: 10px;
+} */
+
+.navbar-container{
+  margin-bottom:5%;
+  position: sticky;
+    top: 0;
+}
+.nav-container{
+
+}
+.nav-feature{
+  display: flex;
+  justify-content:space-between;
+  background-color: greenyellow;
+  height: 100px;
+  align-items: center;
+}
+.logo-image{
+}
+.about-us{
+  margin-right:2%;
+}
+.about-us a{
+  text-decoration: none;
+  color:black;
+}
+.logo-img{
+height: 100px;
+}
+.article{
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  border: 1px rgb(219, 219, 219) solid;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  column-gap: 6%;
+  margin-bottom: 4%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.article-post{
+  margin-left:4%;
+}
+.article-body{
+
+}
+
+.fullname{
+text-align: left;
+font-weight: bold;
+}
+
+.address{
+  text-align: left;
+  font-weight: bold;
+
+}
+.State{
+  text-align: left;
+
+}
+.city{
+  text-align: left;
+
+}
+.edit-form{
+  width: 40%;
+  margin: auto;
+}
+
+.add-button{
+text-align: right;
+margin-right:10%;
+margin-bottom:5%;
+}
+.article-padding{
+  display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.img-posts{
+  width: 200px;
+  height: 200px;
+}
+.feature-buttons{
+  margin-top: 8%;
+}
+
+.feature-buttons a{
+  padding: 10px;
+}
+
+.img-post{
+  width: 200px;
+  height: 200px;
+}
+
+.hamburger{
+  font-size: xxx-large;
+}
+
+.sidebar{
+  /* position: fixed; */
+  transition: all 0.5s;
+  transform: translateX(-30rem);
+  width:30rem;
+  background-color: #f0f0f0;
+  height: 100%;
+}
+.sidebar.open{
+  transform: translateX(0); 
+}
+.sidebar-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar-header h3{
+  margin-left: 0.5rem;
+}
+.sidebar-close{
+  border-radius: 50%;
+  border:0.1rem black solid;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 450px) {
+  .img-posts {
+    width: 100px;
+    height: 100px;
+  }
+}
